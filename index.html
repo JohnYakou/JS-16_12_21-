@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widht=devive-wihdt, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="John Yakou" />
+    <title>Base du JS</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- HTML -->
+    <div></div>
+    <!-- SCRIPT JS -->
+    <script>
+      //   "use strict"; permert de lever certaines erreurs qui normalent ne sont pas prises en compte
+
+      //   var toto = "toto"; il est impossible de créer accidentelement des variables globales
+      var toto = "tata";
+      console.log(toto);
+
+      let coucou = "coucou";
+      voiture = "une voiture rouge";
+      console.log(coucou);
+
+      //   génère un popup d'alert
+      alert("Bonjour à tous !");
+
+      //   inscrit directement dans la page web
+      document.write("<h1>Vous êtes dans votre page html, navigateur</h1>");
+
+      //   popup avec une question qui attend une réponse du user
+      let question = prompt("Une question ?");
+      console.log(question);
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
