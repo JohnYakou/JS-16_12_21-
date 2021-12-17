@@ -40,3 +40,17 @@ console.log(phraseNumber);
 console.log(phraseNumber);
 let phrase3 = `Le chiffre est : ${number1} ${number2}`; // ALT GR + 7 = ``
 console.log(phrase3);
+
+// -------------------- LES TYPES DE VARIABLES --------------------
+let string = "Je suis une chaine de caractères"; // string = chaine de caractères (écrit entre "")
+let number = 24; // les nombress ne doivent PAS être mis entre ""
+let number24 = "24";
+console.log(number + parseInt(number24)); // parseInt permet aussi de transformer une chaine de caractère en nombre
+let boolean = true; // c'est quand on dit vrai ou faux (true OU false)
+let array = ["Je", "suis", "John", 30, true, false, ["voiture", 15]]; // array = tableau (à écrite entre crochet [ ])
+console.log(array); // un tableau commence à l'index 0
+console.log(array[1]); // pour prendre un objet du array
+console.log(array[4]);
+
+let object = { prenom: "John", age: 22, ville: "Gonesse" }; // on met des acolades { } pour construire un objet - Il fonctionne avec des key et des valeurs key:value
+console.log(object);
