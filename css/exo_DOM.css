@@ -1,0 +1,98 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/12/09/20/14/galaxy-1895969_960_720.jpg");
+}
+
+/* ---------- NAV ---------- */
+
+nav {
+  width: 40%;
+  margin-left: 30%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background: #20b2aa;
+  color: purple;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  color: yellow;
+  animation: 1s;
+}
+
+/* ---------- CONTENEUR ---------- */
+
+h2 {
+  text-align: center;
+  background: white;
+  width: 10%;
+  margin-left: 45%;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.conteneur {
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+/* CARD */
+
+.card {
+  width: 500px;
+  height: 400px;
+  background: white;
+}
+
+.image img {
+  width: 100%;
+}
+
+p {
+  margin-left: 2%;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+  background: white;
+  width: 40%;
+  margin-left: 30%;
+}
+
+.index ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.index ul li {
+  font-size: 20px;
+}
+
+/* SCROLL DE LA SOURIS */
+.index ul li a:hover {
+  color: red;
+  animation: 1s;
+}
+
+footer div ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+footer div ul li {
+  font-size: 40px;
+}
