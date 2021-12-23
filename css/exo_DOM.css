@@ -82,7 +82,7 @@ footer {
 }
 
 /* SCROLL DE LA SOURIS */
-.index ul li a:hover {
+footer ul li a:hover {
   color: red;
   animation: 1s;
 }

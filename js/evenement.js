@@ -72,6 +72,20 @@ window.addEventListener("mouseup", () => {
   mouseMove.style.transform = "scale(1) translate(-50%, -50%)";
 });
 
+// MOUSEENTER MOUSEOUT
+questionContainer.addEventListener("mouseenter", () => {
+  questionContainer.style.background = "#333";
+});
+
+questionContainer.addEventListener("mouseout", () => {
+  questionContainer.style.background = "black";
+});
+
+// MOUSEOVER
+reponse.addEventListener("mouseover", () => {
+  reponse.style.transform = "rotate(20deg)";
+});
+
 /* input.value = "toto"
 inputId.addEventListener("input", function () {
   console.log(input.value);
